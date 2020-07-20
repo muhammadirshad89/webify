@@ -1,0 +1,86 @@
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('https://www.techicy.com/wp-content/uploads/2020/02/Finding-The-Best-Managed-IT-Services-In-Chicago.jpg');
+    height: 100vh;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+}
+.banner-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.navbar-brand{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav-link{
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+}
+.banner-text p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+}
+.banner-btn a{
+    border: 1px solid #fff;
+    border-radius: 50px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 50px;
+    display: inline-block;
+    margin-top: 15px;
+    color: #fff;
+}
+.banner-btn a.active{
+    background: #fed136;
+    border-color: #fed136;
+    color: #000;
+}
+.text-area{
+    font-size: 70px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.text-area span{
+    color: #fed136;
+}
+.text-area span{
+    display: inline-block;
+
+}
+@media (max-width: 565px){
+    .banner-text p{
+        font-size: 12px;
+    }
+    .navbar-dark{
+        background-color: rgb(47, 107, 219);
+    }
+    .text-area span{
+        font-size: 50px;
+    }
+}
+@media (max-width: 435px){
+    .banner-text p{
+        font-size: 12px;
+    }
+    .navbar-dark{
+        background-color: rgb(47, 107, 219);
+    }
+    .text-area span{
+        font-size: 30px;
+    }
+}
+@media (max-width: 309px){
+    .banner-text p{
+        font-size: 12px;
+    }
+    .navbar-dark{
+        background-color: rgb(47, 107, 219);
+    }
+    .text-area span{
+        font-size: 25px;
+    }
+}
