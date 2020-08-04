@@ -1,0 +1,110 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    background: url('https://upload.wikimedia.org/wikipedia/commons/5/5f/Larkmead_School%2C_Abingdon%2C_Oxfordshire.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 30rem;
+}
+nav{
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    background-color: #0005;
+}
+nav ul{
+    float: right;
+    margin: 0;
+    margin-right: 1.9rem;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 20px;
+    color: aliceblue;
+}
+img{
+    width: 14%;
+    margin-left: 1.9rem;
+    margin-top: -4%;
+}
+nav ul li:hover{
+    background-color: coral;
+    color: #000;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+section{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 4%;
+}
+section h1{
+    color: aliceblue;
+    line-height: 50px;
+}
+section p{
+    color: gray;
+}
+.btn-1{
+    background-color: orangered;
+    padding: 0.7rem 1rem;
+    color: aliceblue;
+    border: none;
+    border-radius: 10px;
+}
+.features{
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+.features button{
+    padding: 0.7rem 2rem;
+    margin-right: 2rem;
+    font-size: 1.2rem;
+    opacity: 0.7;
+}
+showcase h1{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+#courses{
+    display: flex;
+    text-align: center;
+}
+#courses img{
+    width: 250px;
+    border-radius: 10px;
+    border: 2px solid #000;
+}
+.apply{
+    margin-top: 4%;
+    background-color: orangered;
+    padding: 0.7rem 1rem;
+    color: aliceblue;
+    border: none;
+    border-radius: 10px;
+}
+footer{
+    background-color: #333;
+    color: aliceblue;
+    text-align: center;
+    padding: 1.2rem;
+    margin-top: 4%;
+}
+.image{
+    width: auto;
+    height: 12%;
+    position: absolute;
+    top: 40px;
+    left: ;
+    right: ;
+    bottom: ;
+}
